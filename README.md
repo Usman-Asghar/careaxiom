@@ -17,3 +17,6 @@ ii: PUT Method is used for adding a new Airport recod.
 iii: POST Method is used for updating an existing Airport record.  
 iv: DELETE Method is used for deleting an existing Airport record.  
 
+#Steps for running the Application
+i: Run Apache and MySQL server using xamp.  
+ii: Use Advanced Rest Client.  
