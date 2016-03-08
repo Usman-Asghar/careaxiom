@@ -4,3 +4,16 @@ ii: Make a new database with name "careaxiom" in mysql and import database file 
 
 #Design Pattern
 In this app i have build a RESTfull API (using Phil Sturgeon, Chris Kacerguis RESTful server) for the purpose of managing a Airport Entity. 
+
+#Packages Used
+i: Phil Sturgeon, Chris Kacerguis RESTful server  
+ii: Jamie Rumbelow MY_Model.php  
+iii: phpUnit test framework
+
+#Working
+This API uses 4 methods to manage a complete entity. The methods working is given below.  
+i: GET Method is used for fetching a single Airport record.  
+ii: PUT Method is used for adding a new Airport recod.  
+iii: POST Method is used for updating an existing Airport record.  
+iv: DELETE Method is used for deleting an existing Airport record.  
+
