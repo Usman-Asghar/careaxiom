@@ -32,10 +32,12 @@ This API uses 4 methods to manage a complete entity. The methods working is give
 * For Guest (Use user_id=3)
 
 **For Adding New Airport**  
-Enter "http://localhost/careaxiom/api/airport" in URL field of Advanced Rest Client and add following form fields.
+Enter "http://localhost/careaxiom/api/airport" in URL field of Advanced Rest Client, select PUT method and add following form fields. All fields are required. 
 
+* airport_code  
+* airport_name  
+* country  
+* city  
+* user_id  
 
-
-
-
-
+Test it with different User roles
