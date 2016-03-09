@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2016 at 12:21 AM
+-- Generation Time: Mar 09, 2016 at 01:28 AM
 -- Server version: 5.6.21
 -- PHP Version: 5.6.3
 
@@ -31,15 +31,16 @@ CREATE TABLE IF NOT EXISTS `airport` (
   `airport_code` varchar(255) NOT NULL,
   `airport_name` char(255) NOT NULL,
   `country` char(255) NOT NULL,
-  `city` char(255) NOT NULL
+  `city` char(255) NOT NULL,
+  `user_id` int(1) NOT NULL
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `airport`
 --
 
-INSERT INTO `airport` (`id`, `airport_code`, `airport_name`, `country`, `city`) VALUES
-(11, 'AL123', 'Allama Iqbal International Airport', 'Pakistan', 'Lahore');
+INSERT INTO `airport` (`id`, `airport_code`, `airport_name`, `country`, `city`, `user_id`) VALUES
+(11, 'AL123', 'Allama Iqbal International Airport', 'Pakistan', 'Lahore', 0);
 
 --
 -- Indexes for dumped tables
