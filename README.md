@@ -3,7 +3,7 @@
 * Make a new database with name "careaxiom" in mysql and import database file "careaxiom.sql" from "C:\xampp\htdocs\careaxiom\database" folder.
 
 #Design Pattern
-In this app i have build a RESTfull API (using Phil Sturgeon, Chris Kacerguis RESTful server) for the purpose of managing a Airport Entity. 
+* In this app i have build a RESTfull API (using Phil Sturgeon, Chris Kacerguis RESTful server) for the purpose of managing a Airport Entity. 
 
 #Packages Used
 * Phil Sturgeon, Chris Kacerguis RESTful server  
@@ -21,4 +21,21 @@ This API uses 4 methods to manage a complete entity. The methods working is give
 * Run Apache and MySQL server using xamp.  
 * Use Advanced Rest Client for runing RESTful API Requests. 
 
-HERE are some user Roles  
+**Basic Authentication Username and Password** 
+
+* Username = admin
+* Password = 1234
+
+**HERE are some user Roles**  
+* For Admin (Use user_id=1)
+* For User (Use user_id=2)
+* For Guest (Use user_id=3)
+
+**For Adding New Airport**  
+Enter "http://localhost/careaxiom/api/airport" in URL field of Advanced Rest Client and add following form fields.
+
+
+
+
+
+
