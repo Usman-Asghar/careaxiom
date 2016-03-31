@@ -71,3 +71,6 @@ If you have installed phpUnit in you system then follow the instructions to run 
 * Open CMD  
 * type cd C:\xampp\htdocs\careaxiom\application\tests
 * type phpunit
+* type phpunit
+* type phpunit
+* type phpunit
